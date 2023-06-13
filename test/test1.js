@@ -1,4 +1,5 @@
 var assert = require('assert');
+const { fn2 } = require('../app');
 const arrayNum = require('../app').arrayNum
 const fn = require('../app').fn
 describe('Array', function () {
@@ -9,6 +10,7 @@ describe('Array', function () {
   });
   (async function () {
     const z = await fn(4);
+    const y = fn2();
   
     describe('my suite', function () {
       it(`expected value ${z}`, function () {

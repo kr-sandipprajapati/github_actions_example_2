@@ -11,5 +11,12 @@ module.exports = {
       setTimeout(resolve, 3000, 2 * x);
     });
   },
+  fn2: () => {
+    if(1){
+
+    }else {
+
+    }
+  }
 
 }
