@@ -10,7 +10,7 @@ describe('Array', function () {
   });
   (async function () {
     const z = await fn(4);
-    const y = fn2();
+    // const y = fn2();
   
     describe('my suite', function () {
       it(`expected value ${z}`, function () {

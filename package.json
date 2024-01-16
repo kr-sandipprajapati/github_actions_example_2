@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
-    "code:coverage": "nyc npm test",
+    "code:coverage": "nyc --reporter=html npm test",
     "check-coverage": "nyc check-coverage"
   },
   "author": "testingmocha",

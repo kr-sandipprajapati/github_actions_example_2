@@ -1,0 +1,10 @@
+{
+    "reporter": [
+        "lcov",
+        "text"
+    ],
+    "statements": 74,
+    "branches": 59,
+    "functions": 77,
+    "lines": 72
+}
